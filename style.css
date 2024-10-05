@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+    
+}
+.text{
+  color: mediumslateblue;
+  font-family: "Satisfy", system-ui;
+  font-weight: 400;
+  font-size: 25px;
+}
+img{
+    width: 100px;
+    margin-left: 3%;
+   
+}
+
+.container1 {
+
+    display: flex; 
+    align-items: center; 
+}
+.btn1{
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+    background-color:rgb(175, 145, 204);
+    margin-left: 18%;
+    cursor: pointer;
+
+}
+.btn1 img{
+    
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.container2{
+    display: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 150px;
+    background-color: bisque;
+    margin-left: 100px;
+    
+    margin-top: 20px;
+    position: relative;/*pour que les enfants éléments soient positionnés selon ce container*/
+}
+.container2 .texte{
+    padding: 10px;
+    max-width: 350px;
+
+}
+.texte:focus {
+    outline: none; /* Retire le contour bleu par défaut */
+}
+.container2 img{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    bottom: 15px;
+    right: 15px;
+}
+.couleurs{
+    display: none;
+    margin-left: 240px;
+    margin-top: 15px;
+}
+.couleur{
+    width: 40px;
+    background-color:rgb(180, 230, 250);
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+.dragging {
+    opacity: 0.5; /* Rendre l'élément en cours de glissement semi-transparent */
+}
+
+.btn2{
+    margin-top: 15px;
+    margin-left: 225px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(236, 180, 232);
+    width: 150px;
+    height: 30px;
+    display:none
+}
